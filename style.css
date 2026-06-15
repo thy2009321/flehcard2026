@@ -5,4 +5,28 @@
 
 .cabecalho{
     padding: 15px 25 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cartao{
+width: 260px;
+height: 200px;
+
+}
+
+
+width: 100%;
+    border-radius: 10px;
+}
+body{
+display:flex;
+flex-direction: column;
+min-height: 100vh;
+
+}
+main{
+flex: 1;
 }
