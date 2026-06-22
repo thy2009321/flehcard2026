@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 
 }
 
@@ -25,8 +26,20 @@ body{
 display:flex;
 flex-direction: column;
 min-height: 100vh;
+background-color:darkgreen
 
 }
 main{
 flex: 1;
 }
+
+
+.cabecalho-link {
+    color: crimson;
+    text-decoration: nome;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-size: 24px;
+} 
