@@ -43,3 +43,18 @@ h1 {
     color: cornflowerblue;
     font-size: 24px;
 } 
+
+footer{
+background-color: darkgoldenrod
+ padding:15px 25px;
+ color:blank;
+}
+
+.cartao-interno{
+ position: relative;
+ }
+
+ .cabecalho-frente:12px;
+ position:relative;
+ border-radius:12px;
+ box-shadow:0 6px 12px whater;
