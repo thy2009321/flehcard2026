@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #27358c;
+    background-color: #0522dc;
 }
 
 main {
@@ -40,14 +40,14 @@ main {
 }
 
 h1 {
-    color: #37379a;
+    color: #0f0fd4c9;
     font-size: 24px;
 }
 
 footer {
-    background-color: #fb022c9c;
+    background-color: #0213fb9c;
     padding: 15px 25px;
-    color: #cc27c4;
+    color: #1900ff;
 }
 
 .cartao-interno {
