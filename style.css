@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #d72c2c;
+    background-color: #27358c;
 }
 
 main {
@@ -35,12 +35,12 @@ main {
 }
 
 .cabecalho-link {
-    color: #2e7add;
+    color: #010007;
     text-decoration: none;
 }
 
 h1 {
-    color: #379a8c;
+    color: #37379a;
     font-size: 24px;
 }
 
