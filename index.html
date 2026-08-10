@@ -1,85 +1,192 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Entendendo a Presbiopia | Vista Cansada</title>
+    <style>
+        /* Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #005c97, #363795);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #1e293b;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #005c97;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Layout de Imagem e Texto */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .img-card {
+            text-align: center;
+        }
+
+        .img-card img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .img-caption {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #1e293b;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-    <header class="cabecalho">
-        <h1>Confere ai</h1>
-        <nav>
-            <a href="#" class="cabecalho-link">Início</a>
-        </nav>
+
+    <header>
+        <h1>Presbiopia</h1>
+        <p>Saiba tudo sobre a popular "vista cansada"</p>
     </header>
-    <main>
-        <h2>Descubra a verdade passando o mouse.</h2>
-        <section>
-        <article class="cartao">
-            <div class="cartao-interno">
-                <div class="cartao-frente">
-                    <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2023/07/2021-ford-mustang-mach-1-e1690817092262.jpg?quality=70&strip=info&w=720&crop=1" alt="pinguim" class="cartao-imagem">
-                    <p>Voce acha que a ferrari e mais potente? </p>
+
+    <nav>
+        <a href="#o-que-e">O que é?</a>
+        <a href="#sintomas">Sintomas</a>
+        <a href="#causas">Causas</a>
+        <a href="#tratamento">Tratamentos</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="o-que-e">
+            <h2>O que é Presbiopia?</h2>
+            <div class="content-grid">
+                <div>
+                    <p>A <strong>presbiopia</strong>, comumente chamada de "vista cansada", é uma condição natural dos olhos relacionada ao envelhecimento, na qual a visão para objetos próximos torna-se desfocada.</p>
+                    <p>Ela costuma se manifestar a partir dos 40 anos e afeta praticamente 100% das pessoas em algum momento da vida adulta avançada.</p>
                 </div>
-                <div class="cartao-verso">
-                    <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2023/07/2021-ford-mustang-mach-1-e1690817092262.jpg?quality=70&strip=info&w=720&crop=1" alt="pinguim" class="cartao-imagem">
-                    <p>Sim, porque tem carro que tem bastante cavlos de potencia e V8.</p>
+                <div class="img-card">
+                    <img src="https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=600&q=80" alt="Pessoa tentando ler com óculos de leitura">
+                    <p class="img-caption">Dificuldade para ler textos pequenos de perto é o principal sinal.</p>
                 </div>
             </div>
-        </article>
-       
-        <article class="cartao">
-            <div class="cartao-interno">
-                <div class="cartao-frente">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGSnBltq3r-DfTNPruJzXkuH0RMkPg0das4KdozoPWQTWUDY2Xtq4S3E&s=10" alt="pinguim" class="cartao-imagem">
-                    <p> Voce gosta de Mc Larem?</p>
-                </div>
-                <div class="cartao-verso">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGSnBltq3r-DfTNPruJzXkuH0RMkPg0das4KdozoPWQTWUDY2Xtq4S3E&s=10" alt="pinguim" class="cartao-imagem">
-                    </p>Sim, porque eles tem uma elegancia que nenhum outro carro tem.</p>
-                </div>
-            </div>
-        </article>
-
-        <article class="cartao">
-            <div class="cartao-interno">
-                <div class="cartao-frente">
-                    <img src="https://automotivoshopping.com.br/wp-content/uploads/2022/03/foto05emp-201-sf90-b10-768x440.webp" alt="pinguim" class="cartao-imagem">
-                    <p> A Mc Larem pode percorrer quantos quilometros?</p>
-                </div>
-                <div class="cartao-verso">
-                    <img src="https://automotivoshopping.com.br/wp-content/uploads/2022/03/foto05emp-201-sf90-b10-768x440.webp" alt="pinguim" class="cartao-imagem">
-                    <p>Entre 400km e 600km.</p>
-                </div>
-            </div>
-        </article>
-
-        <article class="cartao">
-            <div class="cartao-interno">
-                <div class="cartao-frente">
-                    <img src="https://i.pinimg.com/originals/d7/3d/e0/d73de09f9e4abde326749874e29e2e7c.jpg" alt="pinguim" class="cartao-imagem">
-                    <p>Qual e o principal carecteristica do carro que chama mais atencao?</p>
-                </div>
-                <div class="cartao-verso">
-                    <img src="https://i.pinimg.com/originals/d7/3d/e0/d73de09f9e4abde326749874e29e2e7c.jpg" alt="pinguim" class="cartao-imagem">
-                    <p>As rodas vermelhas, a parte traseila e a combinacao de cor com branco e vermelho.</p>
-                </div>
-            </div>
-        </article>     
-
-            
-
         </section>
-    </main>
-     
-    <footer>
-        <p>Projeto feito por Thiffani, Miguel</p>
-    </footer>
-</body>
-</html>
 
-https://www.porsche.com/brazil/pt/models/911/?utm_source=chatgpt.com
-https://www.chevrolet.com/legacy/corvette?utm_source=chatgpt.com
-https://www.toyota.com/grsupra/?utm_source=chatgpt.com
-https://www.nissan-global.com/EN/PRODUCTS/GT-R/?utm_source=chatgpt.com
+        <section id="sintomas">
+            <h2>Sintomas Comuns</h2>
+            <div class="content-grid">
+                <div class="img-card">
+                    <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?auto=format&fit=crop&w=600&q=80" alt="Olhos e exame visual">
+                    <p class="img-caption">Fazer esforço visual constante pode causar fadiga e dores de cabeça.</p>
+                </div>
+                <div>
+                    <p>Os sinais mais fáceis de identificar no dia a dia incluem:</p>
+                    <ul>
+                        <li>Necessidade de afastar objetos (como livros ou o celular) para conseguir focar ("efeito braço curto").</li>
+                        <li>Dificuldade para ler letras pequenas em ambientes com pouca luz.</li>
+                        <li>Visão embaçada ao tentar focar em algo próximo.</li>
+                        <li>Cansaço visual ou dores de cabeça após tarefas de perto.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="causas">
+            <h2>Por que isso acontece?</h2>
+            <p>Dentro do nosso olho existe uma lente natural chamada <strong>cristalino</strong>. Quando somos jovens, o cristalino é flexível e muda de formato facilmente com a ajuda dos músculos ciliares para focar objetos de perto e de longe.</p>
+            <p>Com o passar dos anos, o cristalino vai perdendo essa elasticidade natural. Como ele fica mais enrijecido, o olho não consegue mais mudar o foco rapidamente para perto.</p>
+        </section>
+
+        <section id="tratamento">
